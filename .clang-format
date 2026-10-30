@@ -1,0 +1,24 @@
+# C / C++ 通用
+Language: Cpp
+BasedOnStyle: LLVM
+
+# 4 空格缩进，不使用 Tab
+IndentWidth: 4
+TabWidth: 4
+UseTab: Never
+ContinuationIndentWidth: 4
+
+# 保持 LLVM 默认的 80 列；需要更宽可改成 100 或 120
+ColumnLimit: 120
+
+# 大括号与语句同行
+BreakBeforeBraces: Attach
+
+# 指针符号靠变量名：uint8_t *buf
+PointerAlignment: Right
+
+# 短函数不压成一行，方便打断点
+AllowShortFunctionsOnASingleLine: None
+
+# 预处理指令不缩进
+IndentPPDirectives: None
